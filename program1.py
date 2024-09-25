@@ -51,4 +51,8 @@ dispatch_3=[
     ]
 print(solution.getTotalIsles(dispatch_1))  
 print(solution.getTotalIsles(dispatch_2)) 
+<<<<<<< HEAD
 print(solution.getTotalIsles(dispatch_3))
+=======
+print(solution.getTotalIsles(dispatch_3))
+>>>>>>> dafaca6394376f6f84c8bcdd36d650e81b753c0d

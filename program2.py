@@ -23,4 +23,8 @@ def decode_message(s: str, p: str) -> bool:
 print(decode_message("aa", "a"))       
 print(decode_message("aa", "*"))       
 print(decode_message("cb", "?a"))      
+<<<<<<< HEAD
 print(decode_message("adceb", "*a*b"))
+=======
+print(decode_message("adceb", "*a*b"))
+>>>>>>> dafaca6394376f6f84c8bcdd36d650e81b753c0d
