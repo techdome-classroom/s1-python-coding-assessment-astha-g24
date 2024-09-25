@@ -7,8 +7,7 @@ class Solution:
             
             if x < 0 or x >= len(grid) or y < 0 or y >= len(grid[0]) or grid[x][y] == 'W':
                 return
-            
-            
+        
             grid[x][y] = 'W'
            
             dfs(x + 1, y)  
@@ -25,7 +24,6 @@ class Solution:
                     dfs(i, j)           
 
         return island_count
-
 
 solution = Solution()
 
@@ -49,10 +47,7 @@ dispatch_3=[
     ["W", "L", "L", "W"], 
     ["W", "W", "W", "W"]
     ]
+
 print(solution.getTotalIsles(dispatch_1))  
 print(solution.getTotalIsles(dispatch_2)) 
-<<<<<<< HEAD
 print(solution.getTotalIsles(dispatch_3))
-=======
-print(solution.getTotalIsles(dispatch_3))
->>>>>>> dafaca6394376f6f84c8bcdd36d650e81b753c0d
